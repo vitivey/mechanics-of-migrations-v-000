@@ -13,7 +13,6 @@ class CreateArtists < ActiveRecord::Migration
       t.string :genre
       t.integer :age
       t.string :hometown
-      binding.pry
     end
   end
 
