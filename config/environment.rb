@@ -5,8 +5,8 @@ require 'ostruct'
 require 'date'
 
 
-require 'bundler/setup'
-Bundler.require
+require 'bundler/setup' 
+Bundler.require #requires the gems in our Gemfile
 
 
 # put the code to connect to the database here
